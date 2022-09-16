@@ -1,0 +1,455 @@
+
+body{
+    background-color: black;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #d3d4d4; 
+    border-radius: 10px;   
+    border-bottom-left-radius: none;
+    border-bottom-right-radius: none; 
+    overflow: hidden;
+    position: relative;
+
+}
+
+.menu{
+    width: 100%;
+    height: 40px;
+    background-color: #c8d4d4;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+}
+.menubar{
+    width: 50%;
+    padding: 10px;
+    margin-left: 150px;
+}
+.rmenu{
+    position: absolute;
+    right: 225px;
+    top: 10px;
+
+
+}
+.form{
+    position: absolute;
+    top: 12px;
+    left: 300px;
+}
+.form input[type=text] {
+    padding: 4px;
+    font-size: 8px;
+    border: 1px solid grey;
+    float: left;
+    width: 200px;
+    background: #f1f1f1;
+    border-left: none;
+    border-top-left-radius: none;
+    border-bottom-left-radius: none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  .form input:hover{
+      border-color: none;
+  }
+
+.form button {
+    float: left;
+    width: 20px;
+    padding: 4px;
+    background: #f1f1f1;;
+    color: gray;
+    font-size: 8px;
+    border: 1px solid grey;
+    border-right: none;
+    cursor: pointer;
+    border-bottom-right-radius: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+ .body{
+     background-color: #d3d4d4;
+     margin-left: 100px;
+     margin-right: 100px;
+     margin-top: 10px;
+     width: 80%;
+     height: 320px;
+     
+     }
+.menu2{
+    width: 100%;
+    position: relative;
+}
+.menubar2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+
+}
+.bar2{
+    width: 50%;
+    padding: 10px;
+    margin-left: 10px;
+    position: relative;
+    
+}
+.addproduct{
+    position: absolute;
+    left: 180px;
+    top: 10px;
+    color: rgb(0, 162, 255);
+    font-size: 10px;
+     height: 20px; 
+     width: 120px;
+     border: 1px solid rgb(0, 162, 255);
+     background-color: #d3d4d4;
+     border-radius: 5px;
+}
+.h{
+    position: absolute;
+    top: -15px;
+    left: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+.popular{
+    margin-left: 270px;
+}
+.popular select{
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 5px;
+    position: absolute;
+    top: 5px;
+    right: 90px;
+}
+.filter{
+    position: absolute;
+    top: 5px;
+    right: 60px;
+}
+.cards{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.card1{
+    width: 240px;
+    height: 140px;
+    background-image: linear-gradient(to right, #00826f, #02aab0);
+    border-radius: 10px;
+    box-shadow: 1px 5px 25px rgba(109, 151, 149,0.5);
+}
+.card2{
+    width: 240px;
+    height: 140px;
+    background-image: repeating-linear-gradient(250deg,tomato 0% ,blue 100%,tomato);
+    border-radius: 10px;
+  
+}
+
+.card3{
+    width: 240px;
+    height: 140px;
+    background-image: linear-gradient(to right, #000000, #25262d);
+    border-radius: 10px;
+}
+
+.green{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.btc{
+    width: 70%;
+    padding: 10px;
+    margin: 5px;
+    
+}
+.chip{
+    width: 30%;
+    padding: 10px;
+    margin: 5px;
+    padding-right: 5px;
+}
+.amount{
+    margin-left: 10px;
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+}
+
+.cardbottom{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding-top: 10px;
+}
+.bottom{
+    width: 80%;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.flogo{
+    width: 20%;
+    
+}
+
+.comparision{
+    width: 100%;
+    margin-left: 45px;
+}
+.cash{
+  display: flex;
+  flex-direction: row;   
+}
+
+.inexp{
+    width: 25%;
+    padding: 5px;
+    margin: 10px;
+    line-height: 0;
+
+}
+
+.payment{
+    width: 100%;
+    
+}
+.fastpayment{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.fast{
+    font-size: 10px;  
+    font-weight: bold;
+    position: absolute;
+    top: 300px;
+    left: 150px; 
+
+}
+.split{
+    width: 10%;
+    
+}
+
+.list{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+}
+
+.listcount{
+    
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+    font-size: 8px;
+    padding: 10px;
+    margin-left: 10px;
+    height: 10px;
+    word-spacing: 3px;
+    text-align: center;
+
+}
+.lasttop{
+     background-color: #ffffff;
+     margin-top: 10px;
+     width: 100%;
+     height: 240px;
+     margin-left: 140px;
+     
+}
+    
+.layouts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.lasttransaction{
+    width: 50%;
+    background-color: white;
+    margin-left: 20px;
+}
+.topcategories{
+    width: 50%;
+    background-color: white;
+}
+
+.image1{
+    border: 1px solid rgb(202,220,235);
+    width: 20px;
+    height: 20px;
+    background-color: rgb(202,220,235);
+    border-radius: 5px;
+}
+.image2{
+    border: 1px solid rgb(233, 161, 164);
+    width: 20px;
+    height: 20px;
+    background-color: rgb(233,161,164);
+    border-radius: 5px;
+}
+.image3{
+    border: 1px solid rgb(179, 240, 189);
+    width: 20px;
+    height: 20px;
+    background-color: rgb(179,240,189);
+    border-radius: 5px;
+    
+}
+
+.image4{
+    border: 1px solid rgb(178, 210, 212);
+    width: 20px;
+    height: 20px;
+    background-color: rgb(178,210,212);
+    border-radius: 5px;
+}
+.text{
+    line-height: 2px;
+    padding-left: 5px;
+}
+.information{
+    width: 100%;
+    
+}
+.split3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.apps{
+    width: 33.33%;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.visa{
+    width: 33.33%;
+    margin-left: 60px;
+    
+}
+.famount{
+    width: 33.33%;
+    
+    
+}
+.famount p{
+    padding: 4px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.single{
+   width: 50%;
+   display: flex;
+   flex-direction: row;
+   padding: 5px;
+   margin-left: 5px;
+
+}
+.box{
+    width: 50%;
+    
+}
+.boxes{
+    width: 33.33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;      
+    position: absolute;
+    bottom: 50px;
+    right: 200px;
+}
+.box1{
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 125px;
+    height: 145px;
+    box-shadow: 0px 5px 20px 10px rgba(229, 226, 226, 0.5);
+    
+}
+
+.textarea{
+    padding: 7px;
+    margin: 10px;
+    line-height: 5px;
+}
+.bodybottom{
+    background-color: white;
+}
+
+.last{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.headlast{
+    width: 50%;
+}
+.charbutton{
+    width: 50%;
+    margin-left: 140px;
+    position: absolute;
+    top: 15px;
+    left: 310px;
+
+}
+.charbutton button{
+    padding: 5px;
+    height: 25px;
+    text-align: center;
+    font-size: 10px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    background-color: lightgray;
+    width: 25px;
+}   
+.footer{
+    background-color: #d3d4d4;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: absolute;
+    top: 620px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.foot{
+    width: 20%;
+    margin-left: 120px;
+    padding: 5px;
+    position: absolute;
+    top: -12px;    
+}
+.foottext{
+    width: 80%;
+    margin-left: 130px;
+    font-weight: bold;
+}
+.topcategories h5{
+    position: absolute;
+    right: 540px;
+    bottom: 200px;
+}
